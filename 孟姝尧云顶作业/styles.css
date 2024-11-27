@@ -15,7 +15,7 @@
       
 .imgCenter1{
     text-align:center;
-    background-image: url("C:\Users\Re\Desktop\logo.png");
+    background-image: url("LAMY/logo.png");
     position: absolute;
     left: 855px;
     top: 35px;
@@ -26,7 +26,7 @@
       
 .imgCenter2{
     text-align:center;
-    background-image: url("C:\Users\Re\Desktop\logoleft.png");
+    background-image: url("LAMY/logoleft.png");
     position: absolute;
     left: 855px;
     top: 15px;
@@ -35,7 +35,7 @@
     z-index: 7;
 }
 .imgCenter3{
-    background-image: url("C:\Users\Re\Desktop\baseboard.png");
+    background-image: url("LAMY/baseboard.png");
     position: absolute;
     left: 14px;
     top: 15px;
@@ -45,7 +45,7 @@
     z-index: 5;
   }
   .imgCenter4 {
-    background-image: url("C:\Users\Re\Desktop\backboard.png");
+    background-image: url("LAMY/backboard.png");
     position: absolute;
     left: 9px;
     top: 15px;
@@ -69,7 +69,7 @@
     z-index: 9;
   }
   .grey {
-    background-image: url("C:\Users\Re\Desktop\grey.png");
+    background-image: url("LAMY/grey.png");
     opacity: 0.502;
     position: absolute;
     left: 14px;
@@ -79,7 +79,7 @@
     z-index: 12;
   }
   .white{
-    background-image: url("C:\Users\Re\Desktop\white.png");
+    background-image: url("LAMY/white.png");
     position: absolute;
     left: 834px;
     top: 891px;
@@ -88,7 +88,7 @@
     z-index: 13;
   }
   .write {
-    background-image: url("C:\Users\Re\Desktop\pen.png");
+    background-image: url("LAMY/pen.png");
     position: absolute;
     left: 425px;
     top: 897px;
@@ -97,7 +97,7 @@
     z-index: 14;
   }
   .pink {
-    background-image: url("C:\Users\Re\Desktop\pink.png");
+    background-image: url("LAMY/pink.png");
     opacity: 0.704;
     position: absolute;
     left: 544px;
@@ -107,7 +107,7 @@
     z-index: 16;
   }
   .open{
-    background-image: url("C:\Users\Re\Desktop\open.png");
+    background-image: url("LAMY/open.png");
     opacity: 0.704;
     position: absolute;
     left: 693px;
@@ -216,7 +216,7 @@ span{
     z-index: 27;
   }
   .know{
-    background-image: url("C:\Users\Re\Desktop\know.png");
+    background-image: url("LAMY/know.png");
     position: absolute;
     left: 852px;
     top: 2090px;
@@ -236,7 +236,7 @@ span{
     z-index: 29;
   }
   .go{
-    background-image: url("arrow-double-right.png");
+    background-image: url("LAMY/go.png");
     position: absolute;
     left: 1045px;
     top: 2106px;
@@ -245,7 +245,7 @@ span{
     z-index: 32;
   }
   .pen{
-    background-image: url("C:\Users\Re\Desktop\pen.png");
+    background-image: url("LAMY/pen.png");
     position: absolute;
     left: 14px;
     top: 2200px;
@@ -254,7 +254,7 @@ span{
     z-index: 33;
   }
   .red{
-    background-image: url("C:\Users\Re\Desktop\red.png");
+    background-image: url("LAMY/red.png");
     position: absolute;
     left: 416px;
     top: 2396px;
@@ -275,7 +275,7 @@ span{
     z-index: 37;
   }
   .back {
-    background-image: url("C:\Users\Re\Desktop\back.png");
+    background-image: url("LAMY/back.png");
     opacity: 0.71;
     position: absolute;
     left: 14px;
@@ -319,7 +319,7 @@ span{
     z-index: 43;
   }
   .wite {
-    background-image: url("C:\Users\Re\Desktop\wite.png");
+    background-image: url("LAMY/wite.png");
     position: absolute;
     left: 548px;
     top: 2752px;
@@ -372,7 +372,7 @@ span{
     z-index: 49;
   }
   .picture1 {
-    background-image: url("C:\Users\Re\Desktop\picture1.png");
+    background-image: url("LAMY/picture1.png");
     position: absolute;
     left: 526px;
     top: 3181px;
@@ -381,7 +381,7 @@ span{
     z-index: 52;
   }
   .picture2 {
-    background-image: url("C:\Users\Re\Desktop\picture2.png");
+    background-image: url("LAMY/picture2.png");
     position: absolute;
     left: 843px;
     top: 3569px;
@@ -390,7 +390,7 @@ span{
     z-index: 56;
   }
   .picture3 {
-    background-image: url("C:\Users\Re\Desktop\picture3.png");
+    background-image: url("LAMY/picture3.png");
     position: absolute;
     left: 1161px;
     top: 3428px;
@@ -399,7 +399,7 @@ span{
     z-index: 60;
   }
   .picture4 {
-    background-image: url("C:\Users\Re\Desktop\picture4.png");
+    background-image: url("LAMY/picture4.png");
     position: absolute;
     left: 1160px;
     top: 3181px;
@@ -408,7 +408,7 @@ span{
     z-index: 64;
   }
   .picture5 {
-    background-image: url("C:\Users\Re\Desktop\picture5");
+    background-image: url("LAMY/picture5");
     position: absolute;
     left: 843px;
     top: 3181px;
@@ -417,7 +417,7 @@ span{
     z-index: 68;
   }
   .picture6 {
-    background-image: url("C:\Users\Re\Desktop\picture6.png");
+    background-image: url("LAMY/picture6.png");
     position: absolute;
     left: 526px;
     top: 3429px;
@@ -426,7 +426,7 @@ span{
     z-index: 72;
   }
   .brown {
-    background-image: url("C:\Users\Re\Desktop\brown.png");
+    background-image: url("LAMY/brown.png");
     position: absolute;
     left: 858px;
     top: 3810px;
@@ -445,7 +445,7 @@ span{
     z-index: 79;
   }
   .go1{
-    background-image: url("C:\Users\Re\Desktop\go1.png");
+    background-image: url("LAMY/go1.png");
     position: absolute;
     left: 1030px;
     top: 3833px;
@@ -454,7 +454,7 @@ span{
     z-index: 80;
   }
   .tip1 {
-    background-image: url("C:\Users\Re\Desktop\tip1.png");
+    background-image: url("LAMY/tip1.png");
     position: absolute;
     left: 884px;
     top: 2981px;
@@ -463,7 +463,7 @@ span{
     z-index: 110;
   }
   .tip2 {
-    background-image: url("C:\Users\Re\Desktop\tip2.png");
+    background-image: url("LAMY/tip2.png");
     opacity: 0.2;
     position: absolute;
     left: 1030px;
@@ -473,7 +473,7 @@ span{
     z-index: 111;
   }
   .tip3 {
-    background-image: url("C:\Users\Re\Desktop\tip3.png");
+    background-image: url("LAMY/tip3.png");
     opacity: 0.2;
     position: absolute;
     left: 957px;
@@ -518,7 +518,7 @@ span{
     z-index: 91;
   }
   .back1 {
-    background-image: url("C:\Users\Re\Desktop\back1.png");
+    background-image: url("LAMY/back1.png");
     position: absolute;
     left: 16px;
     top: 3917px;
@@ -527,7 +527,7 @@ span{
     z-index: 92;
   }
   .back2 {
-    background-image: url("C:\Users\Re\Desktop\back2.png");
+    background-image: url("LAMY/back2.png");
     position: absolute;
     left: 547px;
     top: 4001px;
@@ -536,7 +536,7 @@ span{
     z-index: 93;
   }
   .pen1 {
-    background-image: url("C:\Users\Re\Desktop\pen1.png");
+    background-image: url("LAMY/pen1.png");
     position: absolute;
     left: 579px;
     top: 4024px;
@@ -545,7 +545,7 @@ span{
     z-index: 94;
   }
   .pen2 {
-    background-image: url("C:\Users\Re\Desktop\pen2.png");
+    background-image: url("LAMY/pen2.png");
     position: absolute;
     left: 579px;
     top: 4160px;
@@ -554,7 +554,7 @@ span{
     z-index: 96;
   }
   .pen3 {
-    background-image: url("C:\Users\Re\Desktop\pen3.png");
+    background-image: url("LAMY/pen3.png");
     position: absolute;
     left: 579px;
     top: 4295px;
@@ -600,7 +600,7 @@ span{
     z-index: 102;
   }
   .red1 {
-    background-image: url("C:\Users\Re\Desktop\red1.png");
+    background-image: url("LAMY/red1.png");
     position: absolute;
     left: 879px;
     top: 4481px;
@@ -619,7 +619,7 @@ span{
     z-index: 106;
   }
   .go2 {
-    background-image: url("C:\Users\Re\Desktop\go2.png");
+    background-image: url("LAMY/go2.png");
     position: absolute;
     left: 1036px;
     top: 4498px;
@@ -628,7 +628,7 @@ span{
     z-index: 107;
   }
   .bottom {
-    background-image: url("C:\Users\Re\Desktop\bottom.png");
+    background-image: url("LAMY/bottom.png");
     position: absolute;
     left: 14px;
     top: 5544px;
@@ -647,7 +647,7 @@ span{
     z-index: 84;
   }
   .background {
-    background-image: url("C:\Users\Re\Desktop\background.png");
+    background-image: url("LAMY/background.png");
     position: absolute;
     left: 11px;
     top: 4569px;
@@ -656,7 +656,7 @@ span{
     z-index: 85;
   }
   .fold {
-    background-image: url("C:\Users\Re\Desktop\fold.png");
+    background-image: url("LAMY/fold.png");
     opacity: 0.8;
     position: absolute;
     left: 11px;
