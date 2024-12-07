@@ -1,0 +1,23 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "5387545",
+      "name": "视频",
+      "font_class": "shipin",
+      "unicode": "eafb",
+      "unicode_decimal": 60155
+    },
+    {
+      "icon_id": "15112708",
+      "name": "通讯录",
+      "font_class": "tongxunlu",
+      "unicode": "e60b",
+      "unicode_decimal": 58891
+    }
+  ]
+}
