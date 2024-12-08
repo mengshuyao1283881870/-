@@ -2,26 +2,18 @@ body{
     margin: 0;
     padding: 0;
 }
-.all{
-    width: 100vw;
-    height: 100vh;
-    margin:auto;
+.div{
     position: absolute;
-    display: flex;
+    display:flex;
     flex-direction:column;
-    justify-content: center;
-    align-items: center;
-}
-.back{
-    display: flex;
-    justify-content: center;
-}
+    }
 .iconfont {
     font-family: "iconfont";
     font-size: 16px;
     font-style: normal;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    color: dimgray;
 }
 .font{
     position: absolute;
