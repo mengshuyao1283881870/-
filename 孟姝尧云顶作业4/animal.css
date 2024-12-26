@@ -1,0 +1,386 @@
+body{
+    position: absolute;
+    margin: 0;
+    padding: 0;
+}
+.back{
+    top: 0;
+    left: 0;
+    z-index: 0;
+}
+.iconfont {
+    font-family: "iconfont" !important;
+    font-size: 16px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color: slategrey;
+    z-index: 1;
+  }
+  .top{
+    display: flex;
+    border: none;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    align-items: flex-start;
+  }
+  .top1{
+    transition: transform 0.3s ease;
+  }
+  .top1:hover{
+    transform: scale(0.7);
+  }
+  .top2{
+    transition: transform 0.3s ease;
+    width: 200px;
+  }
+  .top2:hover{
+    transform: scale(0.9);
+  }
+  .top3{
+    transition: transform 0.3s ease;
+  }
+  .top3:hover{
+    transform: scale(0.7);
+  }
+  .banner{
+    display: flex;
+  }
+  .topic{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 240px;
+    left: 380px;
+    align-items: center;
+  }
+  .topic1 {
+    font-size: 72px;
+    font-family: "Cambria";
+    color: rgb(42, 63, 23);
+    line-height: 0;
+    z-index: 2;
+  }
+  .topic2 {
+    font-size: 30px;
+    font-family: "Microsoft YaHei";
+    color: rgb(42, 63, 23);
+    line-height: 1;
+    z-index: 2;
+  }
+  .explore {
+    display: inline-block; 
+    background-color: rgb(42, 63, 23);
+    width: 262px;
+    height: 72px;
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    border: none;
+    position: absolute;
+    left: 380px;
+    top: 600px;
+    transition: transform 0.3s ease;
+  }
+  .explore:hover {
+    transform: scale(0.9); 
+  }
+  .bird{
+    width: 1200px;
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: -3800px;
+    margin-left: 300px;
+  }
+  .bird1 {
+    transition: transform 0.3s ease;
+  }
+  .bird1:hover {
+    transform: translateY(-35px);
+  }
+  .bird2 {
+    transition: transform 0.3s ease;
+  }
+  .bird2:hover {
+    transform: translateY(-35px);
+  }
+  .bird3 {
+    transition: transform 0.3s ease;
+  }
+  .bird3:hover {
+    transform: translateY(-35px);
+  }
+  .grey{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    margin-top: -3300px;
+    transition: transform 0.3s ease;
+  }
+  .grey:hover {
+    transform: translateY(-35px);
+  }
+  .sign {
+    background-color: rgb(42, 63, 23);
+    width: 288px;
+    height: 72px;
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    border: none;
+    transition: transform 0.3s ease;
+    margin-top: -150px;
+  }
+  .sign:hover {
+    transform: scale(0.9); 
+  }
+  .differ{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 500px;
+  }
+  .difference {
+    font-size: 48px;
+    font-family: "Microsoft YaHei";
+    color: rgb(42, 63, 23);
+    line-height: 0;
+  }
+  .picture{
+    width: 1200px;
+    height: 480px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .difference::before {
+    content: "";
+    position: absolute;
+    left: 830px;
+    top: 2345px;
+    border: 5px solid rgb(42, 63, 23);
+    padding: 10px;
+    opacity: 0;
+    width: 240px;
+    height: 50px;
+    transition: opacity 0.3s ease - in - out;
+}
+.difference:hover::before {
+  opacity: 1;
+}
+.picture1 {
+  transition: transform 0.3s ease;
+}
+.picture1:hover {
+  transform: translateY(-35px);
+}
+.picture2 {
+  transition: transform 0.3s ease;
+}
+.picture2:hover {
+  transform: translateY(-35px);
+}
+.picture3 {
+  transition: transform 0.3s ease;
+}
+.picture3:hover {
+  transform: translateY(-35px);
+}
+.picture4 {
+  transition: transform 0.3s ease;
+}
+.picture4:hover {
+  transform: translateY(-35px);
+}
+.know {
+  font-size: 30px;
+  font-family: "Microsoft YaHei";
+  color: rgb(42, 63, 23);
+  line-height: 0;
+  position: absolute;
+  left: 800px;
+  top: 2940px;
+  z-index: 63;  
+  width: 380px;
+  height: 75px;
+  border: 1px solid rgb(42, 63, 23);
+  color: rgb(42, 63, 23);
+  display: flex;
+  justify-content: center;
+  transition: background-color 0.3s ease - in - out, color 0.3s ease - in - out;
+  align-items: center;
+  }
+  .know:hover {
+    background-color: rgb(42, 63, 23);
+    color: white;
+}
+.squirrel{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-top: 216px;
+  margin-left: 30px;
+}
+.Text{
+  font-size: 24px;
+  font-family: "Microsoft YaHei";
+  color: rgb(42, 63, 23);
+  line-height: 1.25;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: stretch;
+  flex-direction: column;
+}
+.head{
+  font-size: 40px;
+  font-family: "Microsoft YaHei";
+  color: rgb(42, 63, 23);
+  line-height: 1.25;
+}
+.num1 {
+  font-size: 48px;
+  font-family: "Microsoft YaHei";
+  color: rgb(42, 63, 23);
+  line-height: 0.625;
+  position: absolute;
+  left: 1195px;
+  top: 3635px;
+  z-index: 69;
+}
+.num2 {
+  font-size: 48px;
+  font-family: "Microsoft YaHei";
+  color: rgb(42, 63, 23);
+  line-height: 0.625;
+  position: absolute;
+  left: 1195px;
+  top: 3765px;
+  z-index: 71;
+}
+.num3 {
+  font-size: 48px;
+  font-family: "Microsoft YaHei";
+  color: rgb(42, 63, 23);
+  line-height: 0.625;
+  position: absolute;
+  left: 1195px;
+  top: 3900px;
+  z-index: 73;
+}
+.num4 {
+  font-size: 48px;
+  font-family: "Microsoft YaHei";
+  color: rgb(42, 63, 23);
+  line-height: 0.625;
+  position: absolute;
+  left: 1195px;
+  top: 4040px;
+  z-index: 75;
+}
+.head {
+  transition: transform 0.3s ease;
+}
+.head:hover {
+  transform: translateY(-35px);
+}
+.text{
+  transition: all 0.3s ease;
+}
+.text:hover{
+  transform: translate(10px,10px) scale(1.2);
+}
+.f1{
+  transition: transform 0.3s ease;
+}
+.f1:hover{
+  transform: translateX(30px);
+}
+.f2{
+  transition: transform 0.3s ease;
+}
+.f2:hover{
+  transform: translateX(30px);
+}
+.f3{
+  transition: transform 0.3s ease;
+}
+.f3:hover{
+  transform: translateX(30px);
+}
+.f4{
+  transition: transform 0.3s ease;
+}
+.f4:hover{
+  transform: translateX(30px);
+}
+.word1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  margin-left: 400px;
+  margin-top: 200px;
+}
+.t1{
+  font-size: 40px;
+  font-family: "Microsoft YaHei";
+  color: rgb(42, 63, 23);
+  line-height: 1.667;
+  z-index: 83;
+}
+.moer{
+    font-size: 30px;
+    font-family: "Microsoft YaHei";
+    color: rgba(42, 63, 23, 0.902);
+    z-index: 84;
+}
+.t2{
+    font-size: 24px;
+    font-family: "Microsoft YaHei";
+    color: rgba(42, 63, 23, 0.8);
+    line-height: 1.667;
+    z-index: 85;  
+}
+.big {
+  font-size: 30px;
+  font-family: "Microsoft YaHei";
+  color: white;
+  position: absolute;
+  left: 1295px;
+  top: 4400px;
+  width: 380px;
+  height: 65px;
+  background-color: rgb(42, 63, 23);
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  transition: all 0.3s ease;
+}
+.big:hover {
+  background-color: white;
+  transform: translateY(-10px);
+  color: rgb(42, 63, 23);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
