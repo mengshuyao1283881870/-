@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>work2</title>
+    <link href="work2.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript">
+        let msg = [{
+            name: '张三',
+            age: 20,
+            strengths: 'JavaScript',
+            avatar: 'https://tse4-mm.cn.bing.net/th/id/OIP-C.39mOMBjUfsK-HL9jUbv1MwHaE7?pid=ImgDet&rs=1',
+            email: 'yunding@qq.com',
+            password: 33333
+        },
+        {
+            name: '李四',
+            age: 19,
+            strengths: 'python',
+            avatar: 'https://tse2-mm.cn.bing.net/th/id/OIP-C.YlKimVo94OkaZDZCzPIDpAHaFh?pid=ImgDet&rs=1',
+            email: '12345678@163.com',
+            password: 11111
+        },
+        {
+            name: '王五',
+            age: 18,
+            strengths: 'Java',
+            avatar: 'https://tse2-mm.cn.bing.net/th/id/OIP-C.P2hK9SRjhFE8WM9N8tgWFAHaEQ?pid=ImgDet&rs=1',
+            email: 'yundingshuyuan@qq.cn',
+            password: 222222
+        }
+        ];
+        function Email(email) {
+            let correct=/^[a-zA-Z0-9._%+-]+@(qq|163)\.(com|cn)$/;
+            return correct.test(email);
+        }
+        function log() {
+            let email=document.getElementById('email').value;
+            let password=document.getElementById('password').value;
+            let message=document.getElementById('message');
+            let result=document.getElementById('result');
+            message.innerHTML='';
+            result.innerHTML='';
+            if (!Email(email)) {
+                message.innerHTML='请输入合法的邮箱地址';
+                return;
+            }
+            let information=msg.find(user=>user.email===email&&user.password===parseInt(password));
+            if (information) {
+                let resultHtml=
+                 `
+                    <p><strong>头像:</strong> <img src="${information.avatar}" alt="头像" width="50"></p>
+                    <p><strong>姓名:</strong> ${information.name}</p>
+                    <p><strong>年龄:</strong> ${information.age}</p>
+                    <p><strong>特长:</strong> ${information.strengths}</p>
+                `;
+                result.innerHTML=resultHtml;
+            } else {
+                message.innerHTML = '用户名或密码错误，请重试';
+            }
+        }
+    </script>
+</head>
+<body>
+    <div class="all">
+        <div class="message" id="message"></div>
+        <label for="email">邮箱:</label><br>
+        <input type="text" id="email" required><br>
+        <label for="password">密码:</label><br>
+        <input type="password" id="password" required><br>
+        <button type="button" onclick="log()">登录</button>
+        <div class="result" id="result"></div>
+    </div>
+</body>
+</html>

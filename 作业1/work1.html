@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>work1</title>
+    <link href="work1.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript">
+        function sta()
+        {
+            let main=document.getElementById('main').value;
+            let include=document.getElementById('include').value;
+            let count=0;
+            let index=0;
+            while((index=main.indexOf(include,index))!==-1)
+            {
+                count++;
+                index+=include.length;
+            }
+            document.getElementById('result').innerHTML=count.toString();
+        }
+    </script>
+</head>
+<body>
+    <div class="all">
+        <label for="main">请输入一个字符串：</label><br>
+        <input type="text" id="main"><br>
+        <label for="include">请输入一个字串：</label><br>
+        <input type="text" id="include">
+        <button onclick="sta()">提交</button><br>
+        <label for="output">字串出现的次数为：</label>
+        <div id="result"></div>
+    </div>
+</body>
+</html>
