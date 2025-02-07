@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>work</title>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+</head>
+<body>
+    <p>当前时间: </p>
+    <p id="currentTime"></p>
+    <form id="registerForm">
+        <label for="username">账号: </label>
+        <input type="text" id="username" name="username" required><br><br>
+        <label for="password">密码: </label>
+        <input type="password" id="password" name="password" required><br><br>
+        <input type="submit" value="注册">
+        <button id="getUserListButton">获取用户列表</button>
+    </form>
+    <ul id="userList"></ul>
+    <script>
+        function getCurrentTime() {
+            axios.get('http://43.143.169.168:9090/time/now')
+              .then(res => {
+                    document.getElementById('currentTime').textContent = `当前时间: ${res.data}`;
+                    console.log('获取当前时间响应报文:', res.data);
+                })
+              .catch(error => console.error('错误:', error));
+        }
+        getCurrentTime();
+        document.getElementById('registerForm').addEventListener('submit', function (event) {
+            event.preventDefault();
+            const username = document.getElementById('username').value;
+            const password = document.getElementById('password').value;
+            const userData = {
+                username: username,
+                password: password
+            };
+            axios.post('http://43.143.169.168:9090/user/register', userData)
+              .then(res => {
+                    console.log('注册响应报文:', res.data);
+                    alert('注册成功');
+                })
+              .catch(error => console.error('注册错误:', error));
+        });
+        document.getElementById('getUserListButton').addEventListener('click', function () {
+            axios.get('http://43.143.169.168:9090/user/all')
+              .then(res => {
+                    const userList = document.getElementById('userList');
+                    userList.innerHTML = '';
+                    res.data.forEach(user => {
+                        const listItem = document.createElement('li');
+                        listItem.textContent = user.username;
+                        userList.appendChild(listItem);
+                    });
+                    console.log('获取用户列表响应报文:', res.data);
+                })
+              .catch(error => console.error('错误:', error));
+        });
+    </script>
+</body>
+</html>
